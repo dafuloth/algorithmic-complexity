@@ -20,4 +20,10 @@ class CodeTimer
     @array.shuffle
     Time.now - start_time
   end
+
+  def sort
+    start_time = Time.now
+    @array.sort
+    Time.now - start_time
+  end
 end

@@ -15,4 +15,8 @@ describe 'CodeTimer' do
   it '.shuffle returns execution time of `Array.shuffle`' do
     expect(code_timer.shuffle).to be_an_instance_of Float
   end
+
+  it '.sort returns execution time of `Array.sort`' do
+    expect(code_timer.sort).to be_an_instance_of Float
+  end
 end
