@@ -17,4 +17,3 @@ Source repository: <https://github.com/makersacademy/course/tree/master/algorith
 ### "I can TDD anything"
 
 - Create some code that returns the time needed to execute a function
-
