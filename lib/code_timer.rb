@@ -6,8 +6,6 @@ class CodeTimer
   def last
     start_time = Time.now
     @array.last
-    end_time = Time.now
-
-    end_time - start_time
+    Time.now - start_time
   end
 end
