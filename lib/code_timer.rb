@@ -14,4 +14,10 @@ class CodeTimer
     @array.reverse
     Time.now - start_time
   end
+
+  def shuffle
+    start_time = Time.now
+    @array.shuffle
+    Time.now - start_time
+  end
 end
